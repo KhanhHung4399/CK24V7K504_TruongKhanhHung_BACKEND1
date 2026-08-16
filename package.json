@@ -1,16 +1,22 @@
 {
-  "name": "contactbook-backend",
+  "name": "contactbook_backend",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
   "author": "Truong Khanh Hung",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^10.5.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.4"
   }
 }
